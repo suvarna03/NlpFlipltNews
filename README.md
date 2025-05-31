@@ -13,7 +13,7 @@ The goal of this project is to use a bunch of news articles extracted from the c
  4:Bag of Words, TF-IDF
  5: Multi-class Classification
 
- Implementation:
+ **Implementation:**
    1. Importing the libraries & Reading the data file.
    2. Exploring the dataset.
     a: Shape of the dataset
@@ -36,12 +36,12 @@ The goal of this project is to use a bunch of news articles extracted from the c
       b: Nearest Neighbors
       c: Random Forest
      
-Insights
-  1: Naive Bayes performs excellently with high ROC AUC (0.999) and generalizes well (small gap between train and test accuracy), indicating robustness and less overfitting.
-  2: KNN performs slightly lower on all metrics, and could be sensitive to data scaling and neighborhood choice. Still a solid performer.
-  3: Random Forest has the highest overall performance, perfect train accuracy (possible overfitting), and best general test scores (accuracy, precision, recall, F1).
+**Insights**
+  * Naive Bayes performs excellently with high ROC AUC (0.999) and generalizes well (small gap between train and test accuracy), indicating robustness and less overfitting.
+  * KNN performs slightly lower on all metrics, and could be sensitive to data scaling and neighborhood choice. Still a solid performer.
+  * Random Forest has the highest overall performance, perfect train accuracy (possible overfitting), and best general test scores (accuracy, precision, recall, F1).
 
-Recommendation
-1: Random Forest is the top performer overall in terms of predictive power.
-2: Naive Bayes is a close second, simpler and faster, suitable if interpretability and speed matter.
-3: KNN is decent but not optimal here; may benefit from tuning k or scaling
+**Recommendation**
+* Random Forest is the top performer overall in terms of predictive power.
+* Naive Bayes is a close second, simpler and faster, suitable if interpretability and speed matter.
+* KNN is decent but not optimal here; may benefit from tuning k or scaling
